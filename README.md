@@ -2,7 +2,11 @@ Jaun van Heerden 2024
 
 ## Development Environment Setup
 
-This project uses a VSCode devcontainer for a consistent development setup. Follow these steps to get started:
+This project uses a VSCode devcontainer for a consistent development setup. 
+
+It has [Python 3.12](https://www.python.org/), [Bowtie 2](https://bowtie-bio.sourceforge.net/bowtie2/manual.shtml) and [Subread](https://subread.sourceforge.net/).
+
+Follow these steps to get started:
 
 ### Prerequisites
 - Install [Docker](https://www.docker.com/get-started)
@@ -12,7 +16,7 @@ This project uses a VSCode devcontainer for a consistent development setup. Foll
 ### Starting the Devcontainer
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/my_project.git
+   git clone https://github.com/jaun-van-heerden/bowtie2-subread-dev-container.git
    ```
 
 2. Open VSCode and navigate to `File > Open Folder...` and select the cloned project folder.
