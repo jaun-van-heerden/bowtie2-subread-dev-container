@@ -1,0 +1,8 @@
+# Ignore Python compiled files
+*.pyc
+
+# Ignore all directories named 'data' at the root of the project
+/data/
+
+# Ignore script files if they are in a specific directory
+/scripts/*.py

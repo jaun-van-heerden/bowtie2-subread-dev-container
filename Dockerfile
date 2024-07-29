@@ -15,6 +15,15 @@ RUN apt-get update && apt-get install -y \
     default-jdk \
     unzip
 
+# Set up locale to avoid locale warnings
+RUN apt-get install -y locales && \
+    locale-gen en_US.UTF-8 && \
+    update-locale LANG=en_US.UTF-8
+
+ENV LANG=en_US.UTF-8 \
+    LANGUAGE=en_US:en \
+    LC_ALL=en_US.UTF-8
+
 # Install Bowtie2
 RUN apt-get install -y bowtie2
 
